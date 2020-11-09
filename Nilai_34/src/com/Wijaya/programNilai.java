@@ -35,24 +35,24 @@ public class programNilai {
         }
         else{
             System.out.println("-----Hasil Konversi-----");
-            System.out.println("Konversi Pengetahuan = D" );
+            System.out.println("Konversi Pengetahuan = D");
         }
 
         //ketrampilan
         if (nilai.getnilaiKeterampilan(keterampilan) >=91 && nilai.getnilaiKeterampilan(keterampilan) <=100 ){
-            System.out.println("Konversi Pengetahuan = A" );
+            System.out.println("Konversi Keterampilan = A" );
         }
         else if (nilai.getnilaiKeterampilan(keterampilan) >=81 && nilai.getnilaiKeterampilan(keterampilan) <=90 ){
-            System.out.println("Konversi Pengetahuan = B+" );
+            System.out.println("Konversi Keterampilan = B+" );
         }
         else if (nilai.getnilaiKeterampilan(keterampilan) >=71 && nilai.getnilaiKeterampilan(keterampilan) <=80 ){
-            System.out.println("Konversi Pengetahuan = B" );
+            System.out.println("Konversi Keterampilan = B" );
         }
         else if (nilai.getnilaiKeterampilan(keterampilan) >=60 && nilai.getnilaiKeterampilan(keterampilan) <=70){
-            System.out.println("Konversi Pengetahuan = C" );
+            System.out.println("Konversi Keterampilan = C" );
         }
         else{
-            System.out.println("Konversi Pengetahuan = D" );
+            System.out.println("Konversi Keterampilan = D" );
         }
 
     }
